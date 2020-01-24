@@ -1,0 +1,16 @@
+$brand-primary: rgba(97, 9, 121, 0.3533614129245448);
+$brand-secondary: rgba(237, 4, 17, 0.1656863428965336);
+$brand-gradient: linear-gradient(
+  300deg,
+  darken($brand-primary, 10%) 42%,
+  $brand-secondary 100%
+);
+
+html {
+  background: $brand-gradient;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  // background-color: lavenderblush;
+}
